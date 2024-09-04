@@ -1,2 +1,2 @@
-# ian1dunn.github.io
+# [ian1dunn.github.io](https://ian1dunn.github.io)
 Quick GitHub Pages site to host an updated copy of my resume
