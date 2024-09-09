@@ -1,0 +1,53 @@
+IAN DUNN
+Software Developer
+(585) 520-2110 | iantdunn@gmail.com | github.com/ian1dunn| linkedin.com/in/ian1dunn
+
+===EDUCATION===
+Rochester Institute of Technology | Aug 2021 – May 2024 | Rochester, NY
+Bachelor of Science in Computer Science
+- Relevant Coursework: Algorithms, Machine Learning & AI, Computer Vision, Database Management, Data Analysis.
+
+===EXPERIENCE===
+RIT Laboratory of Software Design and Productivity | Mar 2023 – Aug 2023 | Rochester, NY	
+Software Security Team Lead
+- Developed REST APIs using Spring Boot and JSON/XML manipulation to create and analyze SBOMs.
+- Led sprint planning meetings and presented burndown charts for each SCRUM cycle.
+- Overhauled back-end unit testing coverage from 25% to 95%.
+- Deployed a scalable back-end platform and a custom open-source analysis utility using Docker.
+
+Suburban Driving School | Dec 2019 – Dec 2021 | Fairport, NY	
+Front-End Web Developer
+- Redesigned the client’s website to enhance content accessibility for senior citizens.
+- Managed timely and accurate content updates.
+
+===PROJECTS===
+clipti.me, Personal | Aug 2024 – Sep 2024
+- Built a full-stack link shortener using Django, React, and PostgreSQL with token-based authentication. 
+- Designed REST APIs for CRUD operations, click tracking, and automatic URL redirection.
+- Automated deployment to a DigitalOcean server using Docker images and GitHub Actions CI/CD pipelines.
+
+EEG Data Collector | RIT Neurotechnology Exploration Team | Dec 2023 – May 2024
+- Created a Tkinter GUI application to capture brain activity in response to audiovisual stimuli.
+- Implemented the LSL streaming protocol to synchronize recorded data with 1-millisecond precision.
+- Documented the project's usage and scalability for adaptation by other research teams.
+
+Autonomous Parking Simulator | Intro to Artificial Intelligence | Apr 2023
+- Constructed a simulator in Python to generate the final state and control histories of a parallel parking car.
+- Engineered the agent to avoid obstacles on its own using reinforcement learning without external libraries.
+
+===LEADERSHIP===
+RIT Neurotechnology Exploration Team | Dec 2023 – May 2024 | Rochester, NY
+Wheelchair Project Co-Investigator
+- Pioneered a brain-motor interface project to enable people with motor dystrophy to operate a motorized wheelchair.
+- Managed a team of 5 software developers and collaborated with a cross-functional team of mechanical engineers.
+- Conducted an IRB-approved human subject research study to collect model training data.
+
+Phi Delta Theta Fraternity, Dec 2022 | Dec 2023 | Rochester, NY
+President
+- Proceduralized chapter operations by developing officer transition manuals to set year-round standards.
+- Raised $10,000+ for the Live Like Lou Foundation over one academic year by expanding campus outreach.
+
+===SKILLS===
+Languages: Bash, C, C#, Java, Javascript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL
+Other: Angular, Bootstrap, Express, Flask, Git, IntelliJ Suite, JWT, JSON, JUnit, Linux, Microsoft Office, Nginx, 
+       Node.js, NumPy, OAuth2, OpenAI Gym, Pandas, SciKit-Learn, Trello, Web Scraping
