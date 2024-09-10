@@ -48,6 +48,13 @@ President
 - Raised $10,000+ for the Live Like Lou Foundation over one academic year by expanding campus outreach.
 
 ===SKILLS===
+<<<<<<< Updated upstream
 Languages: Bash, C, C#, Java, Javascript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL
 Other: Angular, Bootstrap, Express, Flask, Git, IntelliJ Suite, JWT, JSON, JUnit, Linux, Microsoft Office, Nginx, 
        Node.js, NumPy, OAuth2, OpenAI Gym, Pandas, SciKit-Learn, Trello, Web Scraping
+=======
+Languages: Bash, C, C#, Java, Javascript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL (Postgres)
+Frameworks: Angular, Bootstrap, Django, Express, Flask, Junit, Nginx, Node.js, React
+Developer Tools: Docker, Git, JetBrains Suite, Trello, Visual Studio
+Libraries: NumPy, OpenAI Gym, Pandas, SciKit-Learn
+>>>>>>> Stashed changes
