@@ -49,12 +49,18 @@ President
 
 ===SKILLS===
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Languages: Bash, C, C#, Java, Javascript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL
 Other: Angular, Bootstrap, Express, Flask, Git, IntelliJ Suite, JWT, JSON, JUnit, Linux, Microsoft Office, Nginx, 
        Node.js, NumPy, OAuth2, OpenAI Gym, Pandas, SciKit-Learn, Trello, Web Scraping
 =======
+=======
+>>>>>>> Stashed changes
 Languages: Bash, C, C#, Java, Javascript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL (Postgres)
 Frameworks: Angular, Bootstrap, Django, Express, Flask, Junit, Nginx, Node.js, React
 Developer Tools: Docker, Git, JetBrains Suite, Trello, Visual Studio
 Libraries: NumPy, OpenAI Gym, Pandas, SciKit-Learn
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
