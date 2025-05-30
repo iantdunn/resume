@@ -5,10 +5,10 @@ Software Developer
 ===EXPERIENCE===
 Mindex | Oct 2024 – Present | Remote
 Associate Java Software Engineer 
-- Implemented Smart Pricing project to drive increased revenue by providing customer churn data to billing APIs.
-- Conceptualized and developed pipeline to validate large CSV files in AWS S3 storage and process into MongoDB.
-- Developed Kafka consumer to validate and store data between microservices.
-- Created comprehensive video demos for stakeholders.
+-	Drove a $4M increase in annual client revenue by completing an enterprise-level microservice ahead of schedule.
+-	Designed a pipeline to process and validate large CSV datasets from AWS S3 into MongoDB.
+-	Implemented high-throughput Kafka ingestion to produce and consume 500,000 messages in 90 minutes.
+-	Presented production changes to project stakeholders and documented handoff for client teams.
 
 RIT Laboratory of Software Design and Productivity | Mar 2023 – Aug 2023 | Rochester, NY	
 Software Security Team Lead
@@ -17,10 +17,10 @@ Software Security Team Lead
 - Deployed a scalable back-end platform and a custom open-source analysis utility using Docker.
 
 ===PROJECTS===
-clipti.me | Personal | Aug 2024 – Sep 2024
-- Built a full-stack link shortener using Django, React, and PostgreSQL with token-based authentication.
-- Designed REST APIs for CRUD operations, click tracking, and automatic URL redirection.
-- Automated deployment to a DigitalOcean server using Docker images and GitHub Actions CI/CD pipelines.
+outthebasement.com | Out the Basement Toys & Collectibles | May 2025
+-	Built a full-stack inventory management system using Spring Boot, React, and PostgreSQL.
+-	Designed REST APIs for CRUD operations, server-side image storage, and token-based authentication.
+-	Automated deployment to a DigitalOcean Droplet using Docker Hub and GitHub Actions CI/CD pipelines.
 
 EEG Data Collector | RIT Neurotechnology Exploration Team | Dec 2023 – May 2024
 - Created a Tkinter GUI application to capture brain activity in response to audiovisual stimuli.
@@ -44,5 +44,6 @@ Bachelor of Science in Computer Science
 ===SKILLS===
 Languages: Bash, C, C#, Java, JavaScript/HTML/CSS, MATLAB, MIPS Assembly, MongoDB, PHP, Python, SQL (Oracle, Postgres)
 Frameworks: Angular, Bootstrap, Django, Express, Flask, JUnit, Kafka, Nginx, Node.js, React
-Developer Tools: Ant, BitBucket, Confluence, Docker, Git, Jenkins, JetBrains Suite, Jira, OpenShift, Splunk, Trello, Visual Studio, XLR
+Developer Tools: Ant, BitBucket, Confluence, Docker, Eclipse MAT, Git, Jenkins, JetBrains Suite, Jira, OpenShift, Splunk, Trello, Visual Studio, XL Deploy
 Libraries: Avro, NumPy, OpenAI Gym, Pandas, SciKit-Learn
+
