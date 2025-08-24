@@ -1,2 +1,3 @@
-# [ian1dunn.github.io](https://ian1dunn.github.io)
-Quick GitHub Pages site to host an updated copy of my resume
+# Resume
+
+See a copy of this resume on [iantdunn.com/resume](https://iantdunn.com/resume)
