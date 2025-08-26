@@ -27,12 +27,12 @@ jobs:
       - name: Update Release
         uses: softprops/action-gh-release@v2
         with:
-            tag_name: latest
-            name: PDF Resume
-            files: Ian_Dunn_Resume.pdf
-            draft: false
-            prerelease: false
-            make_latest: true
+          tag_name: build-${{ github.run_number }}
+          name: "PDF Resume - Build ${{ github.run_number }}"
+          files: Ian_Dunn_Resume.pdf
+          draft: false
+          prerelease: false
+          make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
