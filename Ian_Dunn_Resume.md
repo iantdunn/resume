@@ -23,7 +23,7 @@ iantdunn@gmail.com
 
 - Delivered end-to-end websites for small businesses, including a new client site with 130 monthly visitors.
 - Evaluated Software as a Medical Device systems for regulatory compliance during pharmaceutical quality audits.
-- Designed a custom CMS storefront using React, Spring Boot, and PostgreSQL to provide client control of product listings.
+- Designed a custom CMS storefront using React, Spring Boot, and Postgres to provide control of product listings.
 
 ### RIT Laboratory of Software Design and Productivity
 **Software Security Team Lead** | Mar 2023 - Aug 2023 | Rochester, NY
