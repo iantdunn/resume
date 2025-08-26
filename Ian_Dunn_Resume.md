@@ -35,30 +35,24 @@ iantdunn@gmail.com
 ## PROJECTS
 
 ### MarketSNIPR
-**Deep Reinforcement Learning Stock Trading** | Aug 2024 - Present
+**PyTorch, NumPy, Pandas** | Aug 2024 - Present
 
 - Implementing a deep reinforcement learning stock trading agent to interact with brokerage APIs.
 - Researching TD3 learning to forecast nonlinear time-series data using preprocessed technical indicators.
 - Integrated web scraping to automatically update the algorithm with real-time historical data.
 
 ### [outthebasement.com](https://outthebasement.com)
-**Full-Stack Inventory Management System** | May 2025
+**React, Spring Boot, PostgreSQL, Docker** | May 2025
 
 - Built a full-stack inventory management system using Spring Boot, React, and PostgreSQL.
 - Designed REST APIs for CRUD operations, server-side image storage, and token-based authentication.
 - Automated deployment to a DigitalOcean Droplet using Docker Hub and GitHub Actions CI/CD pipelines.
 
 ### [EEG Data Collector](https://github.com/Neurotechnology-Exploration-Team/DataCollector)
-**RIT Neurotechnology Exploration Team** | Dec 2023 - May 2024
+**Python, Tkinter** | Dec 2023 - May 2024
 
 - Created a Tkinter GUI application to capture brain activity in response to audiovisual stimuli.
 - Documented the project's usage and scalability for adaptation by other research teams.
-
-### [Autonomous Parking Simulator](https://github.com/ian1dunn/CSCI331-DubinsGA)
-**Intro to Artificial Intelligence** | Apr 2023
-
-- Constructed a simulator in Python to generate the final state and control histories of a parallel parking car.
-- Engineered the agent to avoid obstacles on its own using reinforcement learning without external libraries.
 
 ## LEADERSHIP
 
