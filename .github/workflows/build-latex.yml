@@ -1,0 +1,40 @@
+name: Build LaTeX Resume
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Compile LaTeX document
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: Ian_Dunn_Resume.tex
+        args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+        
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume-pdf
+        path: Ian_Dunn_Resume.pdf
+        
+    - name: Upload PDF to release (on push to main)
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: latest
+        name: Latest Resume
+        body: Automatically generated PDF resume
+        files: Ian_Dunn_Resume.pdf
+        prerelease: false
+        make_latest: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

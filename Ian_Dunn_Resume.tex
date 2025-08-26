@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Ian Dunn
+% Based off of: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\bfseries\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Change bullet points to use full width of page
+\setlist[itemize]{leftmargin=*}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textbf{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Ian Dunn} \\ \vspace{1pt}
+    \small (585) 520-2110 $|$ \href{mailto:iantdunn@gmail.com}{\underline{iantdunn@gmail.com}} $|$ 
+    \href{https://iantdunn.com}{\underline{iantdunn.com}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Mindex}{Oct 2024 -- Present}
+        {Associate Software Engineer}{Remote}
+        \resumeItemListStart
+            \resumeItem{Drove a \$4M increase in annual client revenue by completing an enterprise-level Spring Boot microservice.}
+            \resumeItem{Designed a pipeline to process and validate large CSV datasets from AWS S3 into MongoDB.}
+            \resumeItem{Implemented high-throughput Kafka ingestion to produce and consume 500,000 messages in 90 minutes.}
+            \resumeItem{Presented production changes to project stakeholders and documented handoff for client teams.}
+        \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Aperture Solutions, LLC}{Mar 2025 -- Present}
+      {Freelance Software Developer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Delivering end-to-end website solutions for small business clients, from requirements gathering through deployment.}
+        \resumeItem{Evaluated Software as a Medical Device systems for regulatory compliance during pharmaceutical quality audits.}
+        \resumeItem{Developed a full-stack storefront system with a custom CMS using React, Spring Boot, and Postgres.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {RIT Laboratory of Software Design and Productivity}{Mar 2023 -- Aug 2023}
+      {Software Security Team Lead}{Rochester, NY}
+      \resumeItemListStart
+        \resumeItem{Developed REST APIs using Spring Boot and JSON/XML manipulation to create and analyze SBOMs.}
+        \resumeItem{Led sprint planning meetings and presented burndown charts for each SCRUM cycle.}
+        \resumeItem{Deployed a scalable back-end platform and a custom open-source analysis utility using Docker.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{MarketSNIPR} $|$ \emph{PyTorch, NumPy, Pandas}}{Aug 2024 -- Present}
+            \resumeItemListStart
+                \resumeItem{Implementing a deep reinforcement learning stock trading agent to interact with brokerage APIs.}
+                \resumeItem{Researching TD3 learning to forecast nonlinear time-series data using preprocessed technical indicators.}
+                \resumeItem{Integrated web scraping to automatically update the algorithm with real-time historical data.}
+            \resumeItemListEnd
+    
+        \resumeProjectHeading
+            {\textbf{\href{https://outthebasement.com}{\underline{outthebasement.com}}} $|$ \emph{React, Spring Boot, PostgreSQL, Docker}}{May 2025}
+            \resumeItemListStart
+                \resumeItem{Built a full-stack inventory management system using Spring Boot, React, and PostgreSQL.}
+                \resumeItem{Designed REST APIs for CRUD operations, server-side image storage, and token-based authentication.}
+                \resumeItem{Automated backend deployment to a DigitalOcean Droplet using Docker Hub and GitHub Actions CI/CD pipelines.}
+            \resumeItemListEnd
+
+        \resumeProjectHeading
+            {\textbf{\href{https://github.com/Neurotechnology-Exploration-Team/DataCollector}{\underline{EEG Data Collector}}} $|$ \emph{Python, Tkinter}}{Dec 2023 -- May 2024}
+            \resumeItemListStart
+                \resumeItem{Created a Tkinter GUI application to capture brain activity in response to audiovisual stimuli.}
+                \resumeItem{Documented the project's usage and scalability for adaptation by other research teams.}
+            \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+
+\section{Leadership}
+  \resumeSubHeadingListStart
+  
+      \resumeSubheading
+      {RIT Neurotechnology Exploration Team}{Dec 2023 -- May 2024}
+      {Wheelchair Project Co-Investigator}{Rochester, NY}
+      \resumeItemListStart
+        \resumeItem{Pioneered a brain-motor interface project to enable people with motor dystrophy to operate a motorized wheelchair.}
+        \resumeItem{Conducted an IRB-approved human subject research study to collect model training data.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rochester Institute of Technology}{Rochester, NY}
+      {Bachelor of Science in Computer Science}{Dec 2023 -- May 2024}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C\#, JavaScript/HTML/CSS, SQL (Oracle, PostgreSQL), MongoDB, C, PHP, Bash} \\
+     \textbf{Frameworks}{: React, Node.js, Django, Flask, Express, Angular, Bootstrap, JUnit, Kafka, Nginx} \\
+     \textbf{Developer Tools}{: Git, Docker, Jenkins, Jira, Confluence, OpenShift, JetBrains Suite, BitBucket, Ant} \\
+     \textbf{Libraries}{: NumPy, Pandas, SciKit-Learn, OpenAI Gym, Avro}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
