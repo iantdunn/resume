@@ -4,7 +4,7 @@
 
 (585) 520-2110
 
-iantdunn@gmail.com
+me@iantdunn.com
 
 [iantdunn.com](https://iantdunn.com)
 
