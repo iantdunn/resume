@@ -27,8 +27,9 @@ jobs:
       - name: Update Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ github.run_number }}
-          name: "PDF Resume - Build ${{ github.run_number }}"
+          tag_name: pdf-${{ github.run_number }}
+          name: "PDF Resume ${{ github.run_number }}"
+          body: ${{ github.event.head_commit.message }}
           files: Ian_Dunn_Resume.pdf
           draft: false
           prerelease: false

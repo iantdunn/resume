@@ -13,38 +13,38 @@ iantdunn@gmail.com
 ### Mindex
 **Associate Software Engineer** | Oct 2024 - Present | Remote
 
-- Drove a $4M increase in annual client revenue by completing an enterprise-level Spring Boot microservice.
-- Designed a pipeline to process and validate large CSV datasets from AWS S3 into MongoDB.
-- Implemented high-throughput Kafka ingestion to produce and consume 500,000 messages in 90 minutes.
+- Drove a $4M increase in annual revenue with an enterprise microservice to automatically assign price tiers.
+- Created a CSV ingestion pipeline from AWS S3 into MongoDB to process 5,500 records per minute.
+- Implemented a Kafka consumer to propagate near real-time updates to downstream billing systems.
 - Presented production changes to project stakeholders and documented handoff for client teams.
 
 ### Aperture Solutions, LLC
 **Freelance Software Developer** | Mar 2025 - Present | Remote
 
-- Delivered end-to-end website solutions for small business clients, from requirements gathering through deployment.
+- Delivered end-to-end websites for small businesses, including a new client site with 130 monthly visitors.
 - Evaluated Software as a Medical Device systems for regulatory compliance during pharmaceutical quality audits.
-- Developed a full-stack storefront system with a custom CMS using React, Spring Boot, and PostgreSQL.
+- Designed a custom CMS storefront using React, Spring Boot, and PostgreSQL to provide client control of product listings.
 
 ### RIT Laboratory of Software Design and Productivity
 **Software Security Team Lead** | Mar 2023 - Aug 2023 | Rochester, NY
 
-- Developed REST APIs using Spring Boot and JSON/XML manipulation to create and analyze SBOMs.
-- Led sprint planning meetings and presented burndown charts for each SCRUM cycle.
-- Deployed a scalable back-end platform and a custom open-source analysis utility using Docker.
+- Developed a REST API suite using Spring Boot and JSON/XML manipulation to create and analyze SBOMs.
+- Led team planning meetings and presented burndown charts to leadership for each sprint.
+- Deployed a scalable back-end platform and a custom open-source analysis utility using Docker Compose.
 
 ## PROJECTS
 
 ### MarketSNIPR
 **PyTorch, NumPy, Pandas** | Aug 2024 - Present
 
-- Implementing a deep reinforcement learning stock trading agent to interact with brokerage APIs.
-- Researching TD3 learning to forecast nonlinear time-series data using preprocessed technical indicators.
-- Integrated web scraping to automatically update the algorithm with real-time historical data.
+- Developing a reinforcement learning trading agent that learns strategies using profit/loss reward functions.
+- Researching TD3 learning to model stock price movements using technical indicators and sentiment analysis.
+- Focusing on policy learning and simulation, with planned expansion to brokerage API integration.
 
 ### [outthebasement.com](https://outthebasement.com)
 **React, Spring Boot, PostgreSQL, Docker** | May 2025
 
-- Built a full-stack inventory management system using Spring Boot, React, and PostgreSQL.
+- Built a full-stack inventory management system using React, Spring Boot, and PostgreSQL.
 - Designed REST APIs for CRUD operations, server-side image storage, and token-based authentication.
 - Automated deployment to a DigitalOcean Droplet using Docker Hub and GitHub Actions CI/CD pipelines.
 
@@ -67,7 +67,7 @@ iantdunn@gmail.com
 ### Rochester Institute of Technology
 **Bachelor of Science in Computer Science** | Aug 2021 - May 2024 | Rochester, NY
 
-## SKILLS
+## TECHNICAL SKILLS
 
 **Languages:** Java, Python, C\#, JavaScript/HTML/CSS, SQL (Oracle, PostgreSQL), MongoDB, C, PHP, Bash
 
