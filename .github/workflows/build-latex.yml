@@ -1,17 +1,16 @@
-name: Build LaTeX Resume
+name: Build and Publish Resume
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
+  workflow_dispatch:
 
-# Add explicit permissions
 permissions:
   contents: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     
     steps:
@@ -23,22 +22,22 @@ jobs:
       with:
         root_file: Ian_Dunn_Resume.tex
         args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
-        
-    - name: Upload PDF artifact
-      uses: actions/upload-artifact@v4
+
+    - name: Create or Update Latest Release
+      uses: ncipollo/release-action@v1
       with:
-        name: resume-pdf
-        path: Ian_Dunn_Resume.pdf
-        
-    - name: Upload PDF to release (on push to main)
-      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: softprops/action-gh-release@v2
-      with:
-        tag_name: latest
+        tag: latest
         name: Latest Resume
-        body: Automatically generated PDF resume
         files: Ian_Dunn_Resume.pdf
+        draft: false
         prerelease: false
-        make_latest: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages
+        keep_files: true
